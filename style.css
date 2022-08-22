@@ -4,19 +4,22 @@ body {
     height: 600px;
     padding: 0 15px;
     margin: 0 auto;
-
 }
-div {font-family: 'Montserrat', sans-serif;
+
+div {
+    font-family: 'Montserrat', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 }
    
 .container {
-   
+    background-color: beige;
+}
+
+.menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: antiquewhite;
-
+    padding: 5px;
 }
 
 .lesson {
@@ -33,83 +36,173 @@ font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500px;
     font-size: 16px;
     color: blue;
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
 
 }
 #submit {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    font-weight: 600;
+    font-size: 30px;
+    
+   
+}
+.ability1 {
+    background-color: beige;
+    justify-content: space-evenly;
+
 }
 .about {
-    margin-top: 200px;
-    margin-left: 300px;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: space-evenly;
 }
 .ability {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 100px;
-    margin-right: 300px;
-    margin-left: 300px;
-    margin-bottom: 200px;
+    
 }
+
 #skills {
-        background-color: bisque;
-        color: black;
-        border-radius: 10px;
-        border-width: 0.6px;
-        padding: 10px 20px 10px 20px;
+        
+        color: white;
+        border-radius: 600px;
+        padding: 20px 10px 10px 20px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: blue;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
+        background-color: blueviolet;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
 
 }
+.milk1 {
+display: flex;
+justify-content: center;
 
+margin-top: 50px;
+color: black;
+}
 .milk {
-    display: flex;
-    justify-content: center;
-    padding-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 1em;
+   
     color: black;
-}
-ul {
-    display: flex;
-    justify-content: center;
-}
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+}  
+
+
+
 #work {
     display: flex;
     justify-content: center;
     margin-top: 200px;
     color: black;
+    font-weight: 600;
+    font-size: 30px;
+    
+    
+}
+.work1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: nowrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+.project1 {
+    background-color: beige;
+    color: black;
+    border-radius: 0px;
+    border-width: 0.6px;
+    padding: 70px 90px 70px 90px;
+}
+.project2 {
+    background-color: beige;
+    color: black;
+    border-radius: 0px;
+    border-width: 0.6px;
+    padding: 70px 90px 70px 90px;
+}
+.project3 {
+    background-color: beige;
+    color: black;
+    border-radius: 0px;
+    border-width: 0.6px;
+    padding: 70px 90px 70px 90px;
+}
+.contact1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: beige;
+   
+    
 }
 .contact {
     display: flex;
     justify-content: center;
     font-weight: 200px;
     color: black;
-    margin-top: 200px;
-    
+    margin-top: 30px;
 }
+
 #bob {
-    background-color: beige;
+    display: flex;
+    justify-content: center;
+    
+    font-weight: 600;
+    font-size: 30px;
+}
+.telephone1{
+    display: flex;
+   margin-left: 300px;
 }
 .telephone {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    margin-left: 50px;
+
+}
+.email1{
+    display: flex;
+  margin-left: 300px;
+
 }
 .email {
     width: 20px;
     height: 20px; 
     margin-right: 10px;
+    margin-left: 50px;
+}
+.instagram1{
+    display: flex;
+    margin-left: 300px;
+    
 }
 .instagram {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    margin-left: 50px;
 }
 * {
     font-size: 16px;
-    color: red;
+    color: black;
 }
